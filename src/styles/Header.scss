@@ -1,0 +1,19 @@
+.app-header {
+  padding: 40px 0;
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+
+    .navlink {
+      text-decoration: none;
+      font-family: var(--font-family-nav-link);
+      font-size: 18px;
+      color: var(--color-tertiary);
+    }
+
+    .navlink.active {
+      text-decoration: underline;
+    }
+  }
+}
