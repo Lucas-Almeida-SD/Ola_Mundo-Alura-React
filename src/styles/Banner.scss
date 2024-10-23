@@ -1,0 +1,43 @@
+.banner-section {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-content: center;
+  padding: 20px 200px 100px 120px;
+  justify-content: space-around;
+
+  .introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    gap: 28px;
+    color: var(--color-white);
+
+    .title {
+      font-size: 38px;
+      font-weight: 900;
+    }
+
+    .text {
+      font-size: 18px;
+      font-weight: 100;
+      text-align: justify;
+    }
+  }
+
+  .images-container {
+    position: relative;
+
+    .colored-circle {
+      width: 300px;
+    }
+
+    .my-picture {
+      width: 200px;
+      border-radius: 50%;
+      position: absolute;
+      right: -80px;
+      bottom: -20px;
+    }
+  }
+}
